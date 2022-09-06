@@ -434,7 +434,6 @@ hideExpand.addEventListener('click', () => {
   range.classList.toggle('margin-top')
 });
 
-
 //----------------------TODO-----------------------------------------------------//
 
 const todoInput = document.querySelector('.todo-input')
@@ -547,6 +546,7 @@ function doneTask(event) {
       const task = tasks.find( (task) => task.id === id)
 
       // таже стрелочная функция только расписанная
+
       // const task = tasks.find(function (task) {
       //   if (task.id === id) {
       //     return true
@@ -614,21 +614,6 @@ document.querySelector('header').addEventListener('click', () => {
   document.querySelector('.settings-container').classList.remove('settings-container-expand')  
 })
 
-// local storage
-// const settingsContainer = document.querySelector(".settings-container")
-
-// function setLocalStorageSettings() {  
-//   localStorage.setItem('settingsContainer', settingsContainer.innerHTML)     
-// }
-
-// window.addEventListener('beforeunload', setLocalStorageSettings)
-
-// function getLocalStorageSettings() {   
-//     settingsContainer.innerHTML = localStorage.getItem('settingsContainer') 
-// }
-// window.addEventListener('load', getLocalStorageSettings)
-
-// console.log(settingsContainer.innerHTML)
 
 //----------------------LocalStorage-----------------------------------------------------//
 function setLocalStorage() {
