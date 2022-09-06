@@ -614,21 +614,6 @@ document.querySelector('header').addEventListener('click', () => {
   document.querySelector('.settings-container').classList.remove('settings-container-expand')  
 })
 
-// local storage
-// const settingsContainer = document.querySelector(".settings-container")
-
-// function setLocalStorageSettings() {  
-//   localStorage.setItem('settingsContainer', settingsContainer.innerHTML)     
-// }
-
-// window.addEventListener('beforeunload', setLocalStorageSettings)
-
-// function getLocalStorageSettings() {   
-//     settingsContainer.innerHTML = localStorage.getItem('settingsContainer') 
-// }
-// window.addEventListener('load', getLocalStorageSettings)
-
-// console.log(settingsContainer.innerHTML)
 
 //----------------------LocalStorage-----------------------------------------------------//
 function setLocalStorage() {
@@ -658,4 +643,4 @@ function getLocalStorage() {
 }
 window.addEventListener('load', getLocalStorage)
 
-
+console.log(city)
