@@ -643,4 +643,3 @@ function getLocalStorage() {
 }
 window.addEventListener('load', getLocalStorage)
 
-
