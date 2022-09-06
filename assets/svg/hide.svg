@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+	<title>img1</title>
+	<defs>
+		<image width="128" height="128" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQMAAAD58POIAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAAAwklEQVR4nO3VMQ6DMAyFYUcMjFygEkfJ0eBoOUqqDh1hzBDFxQpt7SchltIOxRvfkPxCSkLEZjI5C0zNj6CQnj+CC8KAwACORwsNQovQ4Ro9gi8AQ9bQLwsmDT44ni00HC20HAzEbukyIBkGJMOAZBiQDA1XydBwkwwNd8nQMEmGBmYCKAgZISHMCBEhIGA6c0Yox0OP265zEPh65MML1jsg7sJ8MNS/ccIJX4f3S/gRwOd1DwpCwuNBmxC3wVcYn98Puq2v39Vg9+YAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="img1" href="#img1" transform="matrix(0,1,-1,0,128,0)"/>
+</svg>

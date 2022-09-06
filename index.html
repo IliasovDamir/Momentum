@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="hide-expand"></button>
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+        <button class="volume volume-icon"></button>
+        <input class="range" type="range" min="0" max="100" step="5" />
+      </div>
+      <div class="name-songs">CID - No! (BYOR Extended Remix)</div>
+      <div class="player-control-plus">
+        <div class="progress-container">
+          <div class="progress"></div>
+        </div>
+        <div class="duration">
+          <div class="pre-time">00.00</div>
+          <div class="full-time">00.00</div>
+        </div>
+      </div>
+
+      <ul class="play-list">
+        <li class="play-list-item">CID - No! (BYOR Extended Remix)</li>
+        <li class="play-list-item">Fear - Square</li>
+        <li class="play-list-item">Foreign Concept Slay - Vibe</li>
+        <li class="play-list-item">Matroda & Bleu Clair - PWR (Extended Mix)</li>
+        <li class="play-list-item">Volen Sentir - Hael (Original Mix)</li>
+      </ul>
+    </div>
+    <div class="weather">
+      <input type="text" value="Minsk" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder='[Enter name]' />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+
+    <button class="settings"></button>
+    <div class="settings-container">
+      <div class="remove-toggle">
+        <h4>Display / Hide</h4>
+        <ul class="remove-toggle-ul">
+          <li class="remove-toggle-li">
+            <p>Player</p>
+            <!-- <div class="checkbox checkbox-active" id="a0"></div> -->
+          </li>
+          <li class="remove-toggle-li">
+            <p>Weather</p>
+            <!-- <div class="checkbox checkbox-active" id="a1"></div> -->
+          </li>
+          <li class="remove-toggle-li">
+            <p>Date</p>
+            <!-- <div class="checkbox checkbox-active" id="a2"></div> -->
+          </li>
+          <li class="remove-toggle-li">
+            <p>Time</p>
+            <!-- <div class="checkbox checkbox-active" id="a3"></div> -->
+          </li>
+          <li class="remove-toggle-li">
+            <p>Greeting</p>
+            <!-- <div class="checkbox checkbox-active" id="a4"></div> -->
+          </li>
+          <li class="remove-toggle-li">
+            <p>Quote</p>
+            <!-- <div class="checkbox checkbox-active" id="a5"></div> -->
+          </li>
+        </ul>
+      </div>
+      <div class="api">
+        <h4>Image source</h4>
+        <ul class="api-ul">
+          <li class="api-li">
+            <p>Github</p>
+            <div class="checkbox checkbox-active" id="b0"></div>
+          </li>
+          <li class="api-li">
+            <p>Unsplash</p>
+            <div class="api-input">
+              <input class="unsplash-input" type="text">
+              <div class="checkbox" id="b1"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="language">
+        <div class="ru opacity05">RU</div>
+        <div>
+          <pre> / </pre>
+        </div>
+        <div class="en">EN</div>
+      </div>
+    </div>
+
+    <div class="todo-container">      
+      <div class="todo">
+        <input class="todo-input" type="text">
+        <button class="todo-add-btn">&#10010</button>
+      </div>
+      <ul class="todo-ul">        
+      </ul>
+    </div>
+    <div class="footer-icon">
+      <ul class="footer-icon-ul">
+        <li class="footer-icon-li" id="todo">TODO</li>
+        <li class="footer-icon-li">2022</li>
+        <li class="footer-icon-li"><a href="https://rs.school/" target="_blank"><img src="assets/svg/rs.svg"
+              alt="Logo RS-School" width="50" height="20"></a></li>
+        <li class="footer-icon-li"><a href="https://github.com/IliasovDamir" target="_blank"><img
+              src="assets/svg/github.svg" alt="github" width="20" height="20"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
