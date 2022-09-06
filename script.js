@@ -434,7 +434,6 @@ hideExpand.addEventListener('click', () => {
   range.classList.toggle('margin-top')
 });
 
-
 //----------------------TODO-----------------------------------------------------//
 
 const todoInput = document.querySelector('.todo-input')
@@ -547,6 +546,7 @@ function doneTask(event) {
       const task = tasks.find( (task) => task.id === id)
 
       // таже стрелочная функция только расписанная
+
       // const task = tasks.find(function (task) {
       //   if (task.id === id) {
       //     return true
